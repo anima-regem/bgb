@@ -1,0 +1,22 @@
+.mobile_view {
+  width: 100%;
+  height: 100vh;
+  padding: 35px 35px;
+  background-color: #ff6a84;
+}
+.close_icon {
+  display: flex;
+  justify-content: end;
+}
+.mobile_menu_links{
+    margin-top: 15px;
+}
+.mobile_menu_links > p {
+    margin-top: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #151007;
+  cursor: pointer;
+}

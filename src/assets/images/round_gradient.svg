@@ -1,0 +1,21 @@
+<svg width="851" height="993" viewBox="0 0 851 993" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_114_5" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="851" height="993">
+<rect width="851" height="993" fill="black"/>
+</mask>
+<g mask="url(#mask0_114_5)">
+<g filter="url(#filter0_f_114_5)">
+<ellipse cx="221" cy="496.5" rx="630" ry="496.5" fill="url(#paint0_linear_114_5)"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_114_5" x="-419" y="-10" width="1280" height="1013" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="5" result="effect1_foregroundBlur_114_5"/>
+</filter>
+<linearGradient id="paint0_linear_114_5" x1="-1304.14" y1="-46.5" x2="452.233" y2="851.554" gradientUnits="userSpaceOnUse">
+<stop stop-color="#151007"/>
+<stop offset="1" stop-color="#F7F5F4"/>
+</linearGradient>
+</defs>
+</svg>
