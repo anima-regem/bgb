@@ -1,0 +1,10 @@
+.coundown_timer{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    text-align: center;
+    width: fit-content;
+}
+.coundown_timer_para{
+    font-size: 0.1em;
+}
