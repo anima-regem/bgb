@@ -3,6 +3,7 @@
   height: 100vh;
   padding: 35px 35px;
   background-color: #ff6a84;
+  z-index: 69;
 }
 .close_icon {
   display: flex;
