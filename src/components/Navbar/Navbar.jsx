@@ -48,6 +48,7 @@ const Navbar = () => {
           <button>Register now</button>
         </div>
       </div>
+      <div className="bottom-line"></div>
     </>
   );
 };
