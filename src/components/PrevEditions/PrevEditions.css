@@ -10,6 +10,7 @@
 
 .prev-img {
   margin: 2%;
+  padding-left: 5%;
 }
 
 a {
@@ -25,4 +26,8 @@ a {
 }
 .prv-header {
   margin-bottom: 5%;
+}
+
+.prev-img > img{
+  width: 70%;
 }

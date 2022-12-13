@@ -16,7 +16,7 @@ const PrevEditions = () => {
           <div className="prev-card-text">
             <p className="prev-head">BGB'20</p>
             <a href="https://youtu.be/-H3ON2fzOAU">
-              https://youtu.be/-H3ON2fzOAU
+              &nbsp; https://youtu.be/-H3ON2fzOAU
             </a>
           </div>
           <div className="prev-img">
@@ -27,7 +27,7 @@ const PrevEditions = () => {
           <div className="prev-card-text">
             <p className="prev-head">BGB'21</p>
             <a href="https://youtu.be/UUJSaP42b7Y">
-              https://youtu.be/UUJSaP42b7Y
+              &nbsp; https://youtu.be/UUJSaP42b7Y
             </a>
           </div>
           <div className="prev-img">
