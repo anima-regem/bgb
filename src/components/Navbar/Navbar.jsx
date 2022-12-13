@@ -32,7 +32,7 @@ const Navbar = () => {
           <img onClick={() => setMenu(true)} src={menuIcon} alt="" />
         </div>
 
-        {menu && <MobileMenu menu={menu} setMenu={setMenu}/>}
+        {menu && <MobileMenu menu={menu} setMenu={setMenu} />}
       </div>
 
       <div className="container nav_section">
@@ -40,12 +40,26 @@ const Navbar = () => {
           <img className="logo" src={logo} alt="logo" />
         </div>
         <div className="menu_links">
-          <p>Agenda</p>
-          <p>Speaker</p>
-          <p>FAQ</p>
+          <p>
+            <a href="#agenda">Agenda</a>
+          </p>
+          <p>
+            <a href="#speakers">Speaker</a>
+          </p>
+          <p>
+            <a href="#faq"> FAQ</a>
+          </p>
+          <a href="#tickets" id="reg" ></a>
+
         </div>
         <div className="register_btn">
-          <button>Register now</button>
+          <button
+            onClick={() => {
+              document.getElementById("reg").click();
+            }}
+          >
+            Register now
+          </button>
         </div>
       </div>
       <div className="bottom-line"></div>

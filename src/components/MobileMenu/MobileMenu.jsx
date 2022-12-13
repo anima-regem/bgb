@@ -31,9 +31,32 @@ const MobileMenu = ({ menu, setMenu }) => {
           <img onClick={() => setMenu(false)} src={closeIcon} alt="" />
         </div>
         <div className="mobile_menu_links">
-          <p>Agenda</p>
-          <p>Speaker</p>
-          <p>FAQ</p>
+          <p>
+            <a href="#agenda" onClick={() => setMenu(false)}>
+              Agenda
+            </a>
+          </p>
+          <p>
+            <a href="#speakers" onClick={() => setMenu(false)}>
+              Speaker
+            </a>
+          </p>
+          <p>
+            <a href="#faq" onClick={() => setMenu(false)}>
+              FAQ
+            </a>
+          </p>
+          <a href="#tickets" id="reg" ></a>
+          <div className="register_btn mob-reg">
+            <button
+              onClick={() => {
+                document.getElementById("reg").click();
+                setMenu(false);
+              }}
+            >
+              Register now
+            </button>
+          </div>
         </div>
       </animated.div>
     </>

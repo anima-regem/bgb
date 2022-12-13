@@ -11,19 +11,18 @@
 .prev-img {
   margin: 2%;
 }
+
 a {
   text-decoration: none;
   color: #3a3a3a;
   font-size: 0.8rem;
 }
 
-.prev-head{
-    font-size: 1rem;
-    font-weight: 600;
-    margin: 2%;
-
+.prev-head {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 2%;
 }
-.prv-header{
-    margin-bottom: 5%;
-
+.prv-header {
+  margin-bottom: 5%;
 }

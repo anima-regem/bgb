@@ -21,3 +21,11 @@
   color: #151007;
   cursor: pointer;
 }
+
+.mob-reg{
+  margin-top: 10vh;
+}
+
+#reg{
+  display: hidden;
+}

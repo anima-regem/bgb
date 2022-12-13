@@ -1,0 +1,16 @@
+.tickets{
+    margin: 5%;
+}
+
+.tickets-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top:5%;
+
+}
+
+.tickets-content > img{
+    margin: 2%;
+    max-width: 70%;
+}
