@@ -9,7 +9,7 @@ const Agenda = () => {
     <>
       <div className="agenda">
         <div className="agenda-heading">
-          <div className="prv-header">
+          <div className="prv-header agnda-hdr">
             <span className="sb-gec">
               Agenda
               <hr />
