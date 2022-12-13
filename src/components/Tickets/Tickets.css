@@ -1,16 +1,23 @@
-.tickets{
-    margin: 5%;
+.tickets {
+  margin: 5%;
 }
 
-.tickets-content{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    margin-top:5%;
-
+.tickets-content>a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 5%;
 }
 
-.tickets-content > img{
-    margin: 2%;
-    max-width: 70%;
+.tickets-content > a > img {
+  margin: 2%;
+  max-width: 70%;
 }
+
+/* @media screen and (min-width: 768px) {
+    .tickets-content > img{
+        max-width: 20%;
+    }
+}
+    
+} */
