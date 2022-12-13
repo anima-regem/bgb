@@ -1,0 +1,34 @@
+.footer{
+    padding-top: 30px;
+    width: 100%;
+    height: 282px;
+    background: #FF6A85;
+}
+.footer_heading{
+    height: 37px;
+    display: flex;
+    align-items: center;
+}
+.footer_heading > h1{
+    font-style: normal;
+font-weight: 400;
+font-size: 24.375px;
+line-height: 37px;
+color: #151007;
+}
+.line{
+    width: 100px;
+    height: 1px;
+    border-radius: 5px;
+    background-color: black;
+    margin-left: 20px;
+}
+.link{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.link > p{
+    margin-top: 15px;
+}

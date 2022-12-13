@@ -1,0 +1,30 @@
+.about-data{
+    text-align: right;
+    font-size: 0.8em;
+}
+.about-section{
+    margin: 5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.abt-heading{
+    font-size: 2.5em;
+}
+
+@media screen and (min-width:790px) {
+
+    .about-data{
+    text-align: right;
+    font-size: 1em;
+}
+.about-section{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.abt-heading{
+    font-size: 4em;
+}
+
+}

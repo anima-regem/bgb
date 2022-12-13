@@ -81,5 +81,7 @@
 
 .countdown{
   margin-top: 5%;
+  display: flex;
+  justify-content: flex-end;
   
 }

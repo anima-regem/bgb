@@ -1,0 +1,50 @@
+.spkr-section{
+    margin: 5%;
+    margin-top: 10%;
+}
+.spk-header{
+    font-size: 2rem;
+
+}
+
+
+.card{
+    max-width:10rem;
+    margin-bottom: 5%;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+.card-title{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.card-text{
+    font-size: 0.65rem;
+}
+.spk-abt{
+    margin-top:5%;
+    flex-wrap: wrap;
+    
+    padding: 5%;
+    justify-content: space-around;
+    background-image: url('/grid.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+@media screen and (min-width:790px) {
+    .card{
+        max-width:18rem
+    
+    }
+    .card-title{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .card-text{
+        font-size: 1rem;
+    }
+    
+}

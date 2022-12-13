@@ -43,40 +43,38 @@ const Coundown = () => {
   }, []);
 
   return (
-    <div className="coundown">
-        <div className="coundown_timer">
-          <div className="coundown_time">
-            <div className="coundown_time_heading">
-              <h1>{dayTimer} : </h1>
-            </div>
-            <div className="coundown_time_para">
-              <p>Days</p>
-            </div>
-          </div>
-          <div className="coundown_time">
-            <div className="coundown_time_heading">
-              <h1>&nbsp; {hourTimer} : </h1>
-            </div>
-            <div className="coundown_time_para">
-              <p>Hours</p>
-            </div>
-          </div>
-          <div className="coundown_time">
-            <div className="coundown_time_heading">
-              <h1> &nbsp; {minuteTimer} : </h1>
-            </div>
-            <div className="coundown_time_para">
-              <p>Minutes</p>
-            </div>
-          </div>
-          <div className="coundown_time">
-            <div className="coundown_time_heading">
-              <h1> {secondTimer}</h1>
-            </div>
-            <div className="coundown_time_para">
-              <p>Seconds</p>
-            </div>
-          </div>
+    <div className="coundown_timer">
+      <div className="coundown_time">
+        <div className="coundown_time_heading">
+          <h1>{dayTimer} :</h1>
+        </div>
+        <div className="coundown_time_para">
+          <p>Days</p>
+        </div>
+      </div>
+      <div className="coundown_time">
+        <div className="coundown_time_heading">
+          <h1>&nbsp; {hourTimer} :</h1>
+        </div>
+        <div className="coundown_time_para">
+          <p>Hours</p>
+        </div>
+      </div>
+      <div className="coundown_time">
+        <div className="coundown_time_heading">
+          <h1> &nbsp; {minuteTimer} :</h1>
+        </div>
+        <div className="coundown_time_para">
+          <p>Minutes &nbsp; </p>
+        </div>
+      </div>
+      <div className="coundown_time">
+        <div className="coundown_time_heading">
+          <h1> {secondTimer}</h1>
+        </div>
+        <div className="coundown_time_para">
+          <p>Seconds</p>
+        </div>
       </div>
     </div>
   );

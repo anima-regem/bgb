@@ -1,0 +1,46 @@
+.about-data {
+  text-align: right;
+  font-size: 0.8em;
+}
+.about-section {
+  margin: 5%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.abt-heading {
+  font-size: 2.5em;
+}
+
+@media screen and (min-width: 790px) {
+  .about-data {
+    text-align: right;
+    font-size: 1em;
+  }
+  .about-section {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .abt-heading {
+    font-size: 4em;
+  }
+}
+.btm-section {
+  display: flex;
+  flex-direction: column;
+}
+.btm-section > .dashedLine {
+  width: 60%;
+  align-self: center;
+  /*Horizontal*/
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.425) 33%,
+    rgba(255, 255, 255, 0.479) 0%
+  );
+  background-position: bottom;
+  background-size: 50px 1px;
+  background-repeat: repeat-x;
+  height: 2px;
+}
