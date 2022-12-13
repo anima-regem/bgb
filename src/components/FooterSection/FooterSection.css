@@ -39,11 +39,23 @@
 
 .reach-card{
     width: 40rem;
-    padding-top: 5%;
-    line-height: 1rem;
+    padding-top: 2%;
+    line-height: 0.5rem;
 }
 .reach-head{
     font-size: 1em;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 5%;
+}
+.ftr-header{
+    margin-left: 5% ;
+    margin-bottom: 0%;
+}
+.sb-gec>hr{
+    width: 20%;
+    margin-left:2%;
+}
+.sb-gec{
+    display: flex;
+    align-items: center;
 }
