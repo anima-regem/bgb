@@ -3,6 +3,7 @@ import About from "./components/About/About";
 import Banner from "./components/Banner/Banner";
 import BottomSection from "./components/BottomSection/BottomSection";
 import Footer from "./components/Footer/Footer";
+import FooterSection from "./components/FooterSection/FooterSection";
 import HomeSection from "./components/HomeSection/HomeSection";
 import Speaker from "./components/Speaker/Speaker";
 
@@ -17,6 +18,7 @@ function App() {
         <About/>
         <Speaker/>
         <BottomSection/>
+        <FooterSection/>
         <Footer/>
       </div>
     </>

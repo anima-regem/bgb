@@ -1,0 +1,49 @@
+.about-data{
+    text-align: right;
+    font-size: 0.8em;
+}
+.about-section{
+    margin: 5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.abt-heading{
+    font-size: 2.5em;
+}
+
+@media screen and (min-width:790px) {
+
+    .about-data{
+    text-align: right;
+    font-size: 1em;
+}
+.about-section{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.abt-heading{
+    font-size: 4em;
+}
+
+}
+.ftr-section{
+    margin: 7%;
+    margin-top: 0%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.reach-card{
+    width: 40rem;
+    padding-top: 5%;
+    line-height: 1rem;
+}
+.reach-head{
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
