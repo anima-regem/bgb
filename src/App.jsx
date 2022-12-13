@@ -6,6 +6,7 @@ import FAQ from "./components/Faq/FAQ";
 import Footer from "./components/Footer/Footer";
 import FooterSection from "./components/FooterSection/FooterSection";
 import HomeSection from "./components/HomeSection/HomeSection";
+import PrevEditions from "./components/PrevEditions/PrevEditions";
 import Speaker from "./components/Speaker/Speaker";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <About/>
         <Speaker/>
         <BottomSection/>
+        <PrevEditions/>
         <FAQ/>
         <FooterSection/>
         <Footer/>
