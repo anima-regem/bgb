@@ -1,7 +1,7 @@
 import React from "react";
 import "./Tickets.css";
 import ticketImg1 from "../../assets/images/ticket1.svg";
-import ticketImg2 from "../../assets/images/ticket1.svg";
+import ticketImg2 from "../../assets/images/ticket2.svg";
 
 
 const Tickets = () => {

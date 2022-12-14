@@ -9,7 +9,7 @@ const Speaker = () => {
   return (
     <>
       <div className="spkr-section">
-        <div className="spk-header">Keynote Speakers</div>
+        <div className="spk-header">Speakers</div>
 
         <div className="spk-abt d-flex ">
           <div className="card">
