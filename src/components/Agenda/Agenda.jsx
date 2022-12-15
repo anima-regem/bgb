@@ -50,7 +50,7 @@ const Agenda = () => {
             <div className="talk-sessions">
               <h3>Session 2: Dr.Rajani Ramachandran</h3>
               <div className="talk-contents">
-                Theatre-based exploration of gender in stem
+                Theatre-based exploration of gender in STEM
               </div>
             </div>
           </div>

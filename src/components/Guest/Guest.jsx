@@ -7,7 +7,7 @@ const Guest = () => {
   return (
     <>
       <div className="spkr-section">
-        <div className="spk-header">Guest of honor</div>
+        <div className="spk-header">Guest of Honour</div>
 
         <div className="spk-abt d-flex guest-abt ">
           <div className="card">
