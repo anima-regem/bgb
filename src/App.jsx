@@ -6,6 +6,7 @@ import BottomSection from "./components/BottomSection/BottomSection";
 import FAQ from "./components/Faq/FAQ";
 import Footer from "./components/Footer/Footer";
 import FooterSection from "./components/FooterSection/FooterSection";
+import Guest from "./components/Guest/Guest";
 import HomeSection from "./components/HomeSection/HomeSection";
 import PrevEditions from "./components/PrevEditions/PrevEditions";
 import Speaker from "./components/Speaker/Speaker";
@@ -22,6 +23,7 @@ function App() {
         <About />
         <div id="speakers"></div>
         <Speaker />
+        <Guest/>
         <div id="agenda"></div>
         <Agenda />
         <BottomSection />

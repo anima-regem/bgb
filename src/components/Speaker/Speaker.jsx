@@ -33,8 +33,8 @@ const Speaker = () => {
           <div className="card">
             <img src={img3} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-title">Reshmi U</h5>
-              <p className="card-text">Assistant Engineer, Epoch Zero</p>
+              <h5 className="card-title">Rasmi U</h5>
+              <p className="card-text">Assistant Software Engineer, Epoch Zero</p>
             </div>
           </div>
           <div className="card">
