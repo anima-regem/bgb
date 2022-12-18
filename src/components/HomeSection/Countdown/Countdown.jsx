@@ -10,7 +10,7 @@ const Coundown = () => {
   let interval = useRef();
 
   const startTimer = () => {
-    const coundownDate = new Date("Dec 18, 2022 12:00:00").getTime();
+    const coundownDate = new Date("Dec 18, 2022 09:30:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
